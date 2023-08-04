@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>visibility</title>
+    <style>
+      .box {
+        height: 120px;
+        width: 120px;
+        border: 2px solid black;
+      }
+      #box1 {
+        background-color: aqua;
+        position: relative;
+        top: 60px;
+        z-index: 145;
+      }
+      #box2 {
+        background-color: blueviolet;
+        position: relative;
+        top: 20px;
+        z-index: 60;
+        /* visibility: hidden; */
+        /* display: none; */
+      }
+      #box3 {
+        background-color: blue;
+      }
+      #box4 {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div><div class="box" id="box1"></div></div>
+    <div><div class="box" id="box2"></div></div>
+    <div><div class="box" id="box3"></div></div>
+    <div><div class="box" id="box4"></div></div>
+  </body>
+</html>

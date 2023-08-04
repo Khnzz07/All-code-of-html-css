@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectors</title>
+    <style>
+      /* p{
+            background-color: aqua;
+          } */
+      div > p {
+        background-color: brown;
+      }
+      /* div + p{
+            background-color: aqua;
+          } */
+      /* div{
+            background-color: black;
+            color: aliceblue;
+          } */
+    </style>
+  </head>
+  <body>
+    <div class="conntainer">
+      <div class="row">
+        <ul>
+          <li class="iitem"><p>this is my first paragraph</p></li>
+          <p>this is my second paragraph</p>
+          <li>this is my third paragraph</li>
+        </ul>
+        <p>this is inner paragraph</p>
+      </div>
+      <p>this second inner paragraph</p>
+    </div>
+    <p>this is outer paragraph</p>
+  </body>
+</html>
